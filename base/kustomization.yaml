@@ -8,4 +8,5 @@ resources:
   
   # Apps
   - apps/argocd.yaml
+  - apps/cert-manager.yaml
   - apps/traefik.yaml
