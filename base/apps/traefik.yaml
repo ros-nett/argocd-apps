@@ -46,6 +46,9 @@ spec:
     chart: traefik
     helm:
       version: v3
+      parameters:
+        - name: service.type
+          value: ClusterIP
 
   destination:
     server: https://kubernetes.default.svc
