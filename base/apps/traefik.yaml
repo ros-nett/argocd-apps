@@ -29,7 +29,7 @@ spec:
 
   source:
     repoURL: https://helm.traefik.io/traefik
-    targetRevision: 2.9.4
+    targetRevision: 19.0.3
 
     chart: traefik
     helm:
