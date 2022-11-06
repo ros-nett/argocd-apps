@@ -9,5 +9,6 @@ resources:
   # Apps
   - apps/argocd.yaml
   - apps/cert-manager.yaml
+  - apps/cloudflare.yaml
   - apps/sealed-secrets.yaml
   - apps/traefik.yaml
