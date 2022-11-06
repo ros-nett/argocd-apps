@@ -3,5 +3,9 @@ kind: Kustomization
 namespace: argocd
 
 resources:
+  # App of Apps
+  - argocd-apps.yaml.yaml
+  
+  # Apps
   - apps/argocd.yaml
-
+  - apps/traefik.yaml
